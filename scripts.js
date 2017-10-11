@@ -1,12 +1,3 @@
-let userInput, userQuestion, defaultText;
-userQuestion = "What is your number?";
-defaultText = "Type your answer here.";
-userInput = prompt(userQuestion, defaultText);
-let integer;
-integer = (Number.isInteger(userInput));
-  if (true) {
-    $("#response").html("This is an integer!");
-  }
-  if (false) {
-    $("#response").html("This is not an integer!");
-  }
+let number;
+number = {first: "2", second: "4", third: "6"};
+$("#response").html(first, second, third);
