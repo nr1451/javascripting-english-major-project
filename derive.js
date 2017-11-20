@@ -7,7 +7,7 @@ L.tileLayer("https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x
       maxZoom: 18
     });
     tileLayer.addTo(firstMap);
-    firstMap.setView([40.74132, -73.9948], 16);
+    firstMap.setView([40.74132, -73.9948], 17);
 let firstDerive, firstDeriveMarker;
 let tenThousandth, tenThousandthPolygon, thousandth, thousandthPolyline;
 firstDerive = L.latLng(40.74132, -73.9948);
