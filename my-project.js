@@ -8,9 +8,9 @@ L.tileLayer("https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x
     });
     tileLayer.addTo(firstMap);
     firstMap.setView([40.710489, -74.016228], 16);
-let washingtonSquarePark, washingtonSquareParkMarker, popupContent;
-    washingtonSquarePark = L.latLng(40.710489, -74.016228);
-    washingtonSquareParkMarker = L.marker(washingtonSquarePark).addTo(firstMap).bindPopup("This is South End Avenue");
+let southEnd, southEndMarker, popupContent;
+    southEnd = L.latLng(40.710489, -74.016228);
+    southEndMarker = L.marker(southEnd).addTo(firstMap).bindPopup("This is South End Avenue");
 let md;
     md = window.markdownit({html: true}).use(window.markdownitFootnote);
     ["south-end"].forEach(function(tab){
