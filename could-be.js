@@ -33,7 +33,7 @@ couldBeFeatures = data.features.map(function(feature){
 couldBeLayer = L.featureGroup(couldBeFeatures.map(function(feature){
   return L.marker(feature.latLng);
   })
-)
+);
 // Add the layer to the map.
 couldBeLayer.addTo(map);
 // Redraw the map so that all the markers are visible.
