@@ -7,7 +7,7 @@ L.tileLayer("https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x
       maxZoom: 18
     });
     tileLayer.addTo(firstMap);
-    firstMap.setView([40.710489, -74.016228], 16);
+    firstMap.setView([40.762073, -73.981082], 12);
 let southEnd, southEndMarker;
     southEnd = L.latLng(40.710489, -74.016228);
     southEndMarker = L.marker(southEnd).addTo(firstMap).bindPopup("This is South End Avenue");
