@@ -1,6 +1,4 @@
 ## Harlem 125th Street
-“Kenneth was, by now, starting to wear on me, and I began to wish he would go away. I thought of the cabdriver who had driven me home from the Folk Art Museum—hey, I’m African just like you. Kenneth was making a similar claim.” (55)
-
-Julius does not recognize the guard.
+On one of his journeys home from his job at Columbia Presbyterian, Julius rides the subway to 125th St and takes a walk through Harlem. He describes the movement of the people there—a merchant selling cloths, and a young man selling “tchotchkes from Africa”. He then goes on to describe a group of “young men in hooded sweatshirts enacting a choreography opaque to all but themselves”. Julius is excluded from the culture of Harlem to such an extent that he isn’t able to interpret the actions of the people that inhabit it. Lastly, Julius describes a brief encounter that he has with a man during this walk and the hesitancy that he experiences in that moment. He says “an old man with an ashen face…raised his head to greet me, and I…returned his silent greeting. I turned around to see his black cowl melt into an unlit doorway. In the Harlem night, there were no whites” (18-19). This is just one example of the many encounters that Julius has with other African Americans in the novel. The reluctance Julius expresses here in greeting the man and his observation that “there were no whites” shows that he is uncomfortable in this black community. It becomes a theme throughout the novel. 
 
 ![Manhattan: West St-Albany St, 1929](https://i.imgur.com/UViM9Jh.jpg)

@@ -8,9 +8,12 @@ L.tileLayer("https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x
     });
     tileLayer.addTo(firstMap);
     firstMap.setView([40.710489, -74.016228], 16);
-let southEnd, southEndMarker, popupContent;
+let southEnd, southEndMarker;
     southEnd = L.latLng(40.710489, -74.016228);
     southEndMarker = L.marker(southEnd).addTo(firstMap).bindPopup("This is South End Avenue");
+let harlem125, harlem125Marker;
+  harlem125 = L.latLng(40.805144, -73.939180);
+  harlem125Marker = L.marker(harlem125).addTo(firstMap).bindPopup("This is Harlem 125th Street");
 let md;
     md = window.markdownit({html: true}).use(window.markdownitFootnote);
     ["south-end"].forEach(function(tab){
