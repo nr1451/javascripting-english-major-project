@@ -26,3 +26,18 @@ let md;
         }
       });
     });
+  let md2;
+        md2 = window.markdownit({html: true}).use(window.markdownitFootnote);
+        ["harlem-125"].forEach(function(tab){
+          // Create a variable tab that has the name as a string.
+          $.ajax({
+            // tab + ".md" yields, for example, "rampart.md".
+            url: "https://nr1451.github.io/javascripting-english-major-project/" + tab + ".md",
+            success: function(markdown){
+              let html;
+              html = md.render(markdown);
+              // "#rampart", for example.
+              $("#" + tab).html(html);
+            }
+          });
+        });
