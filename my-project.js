@@ -19,7 +19,7 @@ let harlem124, harlem124Marker;
   harlem124Marker = L.marker(harlem124).addTo(firstMap).bindPopup("This is Harlem 124th Street");
 let cabride, cabrideMarker;
   cabride = L.latLng(40.773128, -73.981604);
-  cabrideMarker = L.marker(cabride).addTo(firstMap).bindPopup("This is Harlem 124th Street");
+  cabrideMarker = L.marker(cabride).addTo(firstMap).bindPopup("This is the American Folk Art Museum");
 let md;
     md = window.markdownit({html: true}).use(window.markdownitFootnote);
     ["south-end"].forEach(function(tab){
@@ -67,7 +67,7 @@ let md3;
         });
   let md4;
           md4 = window.markdownit({html: true}).use(window.markdownitFootnote);
-          ["124-street"].forEach(function(tab){
+          ["cabride"].forEach(function(tab){
             // Create a variable tab that has the name as a string.
             $.ajax({
               // tab + ".md" yields, for example, "rampart.md".
