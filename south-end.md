@@ -3,4 +3,4 @@
 
 Julius does not recognize the guard.
 
-![Manhattan: West St-Albany St, 1929](https://i.imgur.com/UViM9Jh.jpg./pic/pic1_50.png =10x20)
+![Manhattan: West St-Albany St, 1929](https://i.imgur.com/UViM9Jh.jpg)
