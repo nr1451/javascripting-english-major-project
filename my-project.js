@@ -14,6 +14,9 @@ let southEnd, southEndMarker;
 let harlem125, harlem125Marker;
   harlem125 = L.latLng(40.805144, -73.939180);
   harlem125Marker = L.marker(harlem125).addTo(firstMap).bindPopup("This is Harlem 125th Street");
+let harlem124, harlem124Marker;
+  harlem124 = L.latLng(40.806685, -73.945745);
+  harlem124Marker = L.marker(harlem124).addTo(firstMap).bindPopup("This is Harlem 124th Street");
 let md;
     md = window.markdownit({html: true}).use(window.markdownitFootnote);
     ["south-end"].forEach(function(tab){
@@ -42,5 +45,20 @@ let md;
               // "#rampart", for example.
               $("#" + tab).html(html);
             }
+          });
+        });
+let md3;
+        md3 = window.markdownit({html: true}).use(window.markdownitFootnote);
+        ["124-street"].forEach(function(tab){
+          // Create a variable tab that has the name as a string.
+          $.ajax({
+            // tab + ".md" yields, for example, "rampart.md".
+            url: "https://nr1451.github.io/javascripting-english-major-project/" + tab + ".md",
+            success: function(markdown){
+              let html;
+              html = md.render(markdown);
+              // "#rampart", for example.
+              $("#" + tab).html(html);
+                }
           });
         });
