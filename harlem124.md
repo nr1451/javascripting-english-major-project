@@ -3,4 +3,4 @@
 
 Cole, Teju. Open City: A Novel (p. 212). Random House Publishing Group. Print.
 
-![Harlem 125th St, 1935](https://i.imgur.com/uCb9O5X.jpg)
+![Harlem 124th St, 1930s](https://i.imgur.com/uCb9O5X.jpg)
