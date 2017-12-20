@@ -1,25 +1,44 @@
-<!doctype HTML>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>My JavaScripting English Major Project</title>
+    <title>What Does It Mean To Be African?</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ=="
+   crossorigin=""/>
+    <link rel="stylesheet" href="leaflet.css" />
   </head>
   <body>
     <div class="container">
-      <h1>This is my project!</h1>
-      <h2><a href="prologue.html">General Prologue</a></h2>
-      <h2><a href="leaflet.html">Leaflet page</a></h2>
-      <div id="response">This is the #response div.</div>
-      <p>My name is Nikita and this is my first paragraph.</p>
-      <p class="lead">This is my second paragraph. This project is for the class Digital Literary Studies: Novel Maps of New York.</p>
+      <h1><b class="lead">Are You My Brother?</b></h1>
+      <h2><c class="lead">African American culture of NYC through the lens of Teju Cole's <i>Open City</i></c></h2>
+      <div class="col-md-12" id="poem">
+            <p class="lead">Throughout the novel <i>Open City</i> by Teju Cole, the main character Julius removes himself from the rest of the African American community in NYC. His descriptions of African American people read like someone on the outside of society looking in. He often responds irritably when someone characterizes him as an African and considers this an act of “laying claims on him” (40). However, Julius also speaks to other African Americans in the novel by referring to them as his “brothers”. Below, I have mapped a few of these locations in New York where Julius struggles to determine his African American identity and where develops his personal definition of the word “African”. </p>
+      </div>
+      <div class="col-md-8" id="places-sidebar">
+      <div id="open-city-map" class="map"></div>
+      <nav id="nav-tabs" class="nav nav-pills mt-3" role="tablist">
+  <a class="nav-link active" href="#south-end" data-toggle="tab" role="tab">South End Avenue</a>
+  <a class="nav-link" href="#harlem-125" data-toggle="tab" role="tab">Harlem 125th Street</a>
+  <a class="nav-link" href="#harlem-124" data-toggle="tab" role="tab">124th Street: The Attack</a>
+  <a class="nav-link" href="#cabride" data-toggle="tab" role="tab">Cab Ride from Folk Art Museum</a>
+  <a class="nav-link" href="#harlem-125" data-toggle="tab" role="tab">Harlem 125th Street</a>
+</nav>
+      <div class="tab-content p-3">
+  <section class="tab-pane active" id="south-end" role="tabpanel"> </section>
+  <section class="tab-pane" id="harlem-125" role="tabpanel"> </section>
+  <section class="tab-pane" id="harlem-124" role="tabpanel"> </section>
+  <section class="tab-pane" id="cabride" role="tabpanel"> </section>
     </div>
+      </div>
+      </div>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-    <img src="https://i.imgur.com/UViM9Jh.jpg" class="rounded mx-auto d-block">
-    <script src="scripts.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin=""></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/8.4.0/markdown-it.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it-footnote/3.0.1/markdown-it-footnote.js"></script>
+  <script src="my-project.js"></script>
   </body>
 </html>
