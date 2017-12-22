@@ -8,9 +8,13 @@ L.tileLayer("https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x
     });
     tileLayer.addTo(firstMap);
     firstMap.setView([40.762073, -73.981082], 12);
+
+map.on("click", function(clickEvent) {
+  alert("For more information, go to" + clickEvent.latlng.lat +
+  ", " + clickEvent.latlng.lng); });
 let southEnd, southEndMarker, popupContent;
     southEnd = L.latLng(40.710489, -74.016228);
-    southEndMarker = L.marker(southEnd).addTo(firstMap).bindPopup("href=http://google.com/");
+    southEndMarker = L.marker(southEnd).addTo(firstMap).bindPopup(<a> href=http://google.com/</a>);
 let harlem125, harlem125Marker;
   harlem125 = L.latLng(40.805144, -73.939180);
   harlem125Marker = L.marker(harlem125).addTo(firstMap).bindPopup("This is Harlem 125th St");
