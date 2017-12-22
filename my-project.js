@@ -16,7 +16,7 @@ let harlem125, harlem125Marker;
   harlem125Marker = L.marker(harlem125).addTo(firstMap).bindPopup('<img src="https://i.imgur.com/uCb9O5X.jpg" />');
 let harlem124, harlem124Marker;
   harlem124 = L.latLng(40.806685, -73.945745);
-  harlem124Marker = L.marker(harlem124).addTo(firstMap).bindPopup( <img src="http://..." />);
+  harlem124Marker = L.marker(harlem124).addTo(firstMap).bindPopup("hi");
 let cabride, cabrideMarker;
   cabride = L.latLng(40.773128, -73.981604);
   cabrideMarker = L.marker(cabride).addTo(firstMap).bindPopup("This is the American Folk Art Museum");
