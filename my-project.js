@@ -10,16 +10,16 @@ L.tileLayer("https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x
     firstMap.setView([40.762073, -73.981082], 12);
 let southEnd, southEndMarker, popupContent;
     southEnd = L.latLng(40.710489, -74.016228);
-    southEndMarker = L.marker(southEnd).addTo(firstMap).bindPopup("South End Avenue is close to an African Burial Ground National Monument, an important historical site for blacks in New York. Learn more by "+'<a href="https://ny.curbed.com/maps/black-history-month-new-york">clicking here</a>"');
+    southEndMarker = L.marker(southEnd).addTo(firstMap).bindPopup("SOUTH END AVENUE"+'<img src="https://i.imgur.com/UViM9Jh.jpg" width="300" height="250"/>'+"South End Avenue is close to an African Burial Ground National Monument, an important historical site for blacks in New York. "+'<a href="https://ny.curbed.com/maps/black-history-month-new-york">Learn more by clicking here</a>');
 let harlem125, harlem125Marker;
   harlem125 = L.latLng(40.805144, -73.939180);
-  harlem125Marker = L.marker(harlem125).addTo(firstMap).bindPopup('<img src="https://i.imgur.com/uCb9O5X.jpg" width="10" height="5"/>');
+  harlem125Marker = L.marker(harlem125).addTo(firstMap).bindPopup("HARLEM 125TH ST"+'<img src="https://i.imgur.com/nBSIeLd.jpg" width="300" height="250"/>'+"Harlem is grounded in a deep history of African American residential and buisness life. "+'<a href="https://en.wikipedia.org/wiki/Harlem">Click here for the wikipedia page</a>');
 let harlem124, harlem124Marker;
   harlem124 = L.latLng(40.806685, -73.945745);
-  harlem124Marker = L.marker(harlem124).addTo(firstMap).bindPopup("hi");
+  harlem124Marker = L.marker(harlem124).addTo(firstMap).bindPopup("HARLEM 124TH ST"+'<img src="https://i.imgur.com/uCb9O5X.jpg" width="300" height="250"/>'+"The Harlem Renaisannce (1910-1930s) united the African American community in Harlem and brought people in the community together. "+'<a href="http://www.history.com/topics/black-history/harlem-renaissance">Click here to read more about the Harlem Renaisannce</a>');
 let cabride, cabrideMarker;
   cabride = L.latLng(40.773128, -73.981604);
-  cabrideMarker = L.marker(cabride).addTo(firstMap).bindPopup("This is the American Folk Art Museum");
+  cabrideMarker = L.marker(cabride).addTo(firstMap).bindPopup("CAB RIDE FROM AMERICAN FOLK ART MUSEUM"+'<img src="https://i.imgur.com/OlRFZ6Y.jpg" width="300" height="250"/>'+"The Harlem Renaisannce (1910-1930s) united the African American community in Harlem and brought people in the community together. "+'<a href="http://www.history.com/topics/black-history/harlem-renaissance">Click here to read more about the Harlem Renaisannce</a>');
 let md;
     md = window.markdownit({html: true}).use(window.markdownitFootnote);
     ["south-end"].forEach(function(tab){
