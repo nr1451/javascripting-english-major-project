@@ -1,4 +1,6 @@
 ## Ellis Island
 "Ellis Island was a symbol mostly for European refugees. Blacks, “we blacks,” had known rougher ports of entry: this, I could admit to myself now that my mood was less impatient, was what the cabdriver had meant. This was the acknowledgment he wanted, in his brusque fashion, from every “brother” he met."
 
-Cole, Teju. Open City: A Novel (p. 55). Random House Publishing Group. Kindle Edition.
+Cole, Teju. Open City: A Novel (p. 55). Random House Publishing Group. Print.
+
+As Julius looks out onto the water from South End Avenue, he can see the Statue of Liberty and Ellis Island in the distance. He thinks about the hope that Ellis Island represented for early immigrants, and how the first Africans in New York were not welcomed into the country in the same way. Julius laments at the struggles faced by his ancestors and early blacks in America who never got the chance to experience hope at Ellis Island, but rather experienced decades of repression in slavery--"it had been built too late for those early Africans--who weren't immigrants in any case" (55). Here, Julius truly identifies as a member of the African American community. He shows remorse for early blacks in America and seems to understand why the cabdriver referred to him as his "brother". Julius goes as far as to use the term "we blacks" when describing the arduous nature of African immigration to America. As the novel progresses, there are other instances when Julius identifies with black struggle in New York. He seems to identify with the experience racial struggles as an African.
