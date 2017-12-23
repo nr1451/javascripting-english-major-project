@@ -19,7 +19,7 @@ let harlem124, harlem124Marker;
   harlem124Marker = L.marker(harlem124).addTo(firstMap).bindPopup("HARLEM 124TH ST"+'<img src="https://i.imgur.com/uCb9O5X.jpg" width="300" height="250"/>'+"The Harlem Renaisannce (1910-1930s) united the African American community in Harlem and brought people in the community together. "+'<a href="http://www.history.com/topics/black-history/harlem-renaissance">Click here to read more about the Harlem Renaisannce</a>');
 let cabride, cabrideMarker;
   cabride = L.latLng(40.773128, -73.981604);
-  cabrideMarker = L.marker(cabride).addTo(firstMap).bindPopup("CAB RIDE FROM AMERICAN FOLK ART MUSEUM"+'<img src="https://i.imgur.com/OlRFZ6Y.jpg" width="300" height="250"/>'+"The Harlem Renaisannce (1910-1930s) united the African American community in Harlem and brought people in the community together. "+'<a href="http://www.history.com/topics/black-history/harlem-renaissance">Click here to read more about the Harlem Renaisannce</a>');
+  cabrideMarker = L.marker(cabride).addTo(firstMap).bindPopup("CAB RIDE FROM AMERICAN FOLK ART MUSEUM"+'<img src="https://i.imgur.com/OlRFZ6Y.jpg" width="300" height="250"/>'+"Julius spends time on a rainy afternoon observing works in the American Folk Art Museum. The museum has many collections from African American artists that depict black culture and African American life through generations. "+'<a href="https://folkartmuseum.org/exhibitions/ancestry-and-innovation-african-american-art-from-the-collection/">Click here to view these collections from the American Folk Art Museum</a>');
 let md;
     md = window.markdownit({html: true}).use(window.markdownitFootnote);
     ["south-end"].forEach(function(tab){
