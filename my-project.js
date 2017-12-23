@@ -20,6 +20,9 @@ let harlem124, harlem124Marker;
 let cabride, cabrideMarker;
   cabride = L.latLng(40.773128, -73.981604);
   cabrideMarker = L.marker(cabride).addTo(firstMap).bindPopup("CAB RIDE FROM AMERICAN FOLK ART MUSEUM"+'<img src="https://i.imgur.com/OlRFZ6Y.jpg" width="300" height="250"/>'+"Julius spends time on a rainy afternoon observing works in the American Folk Art Museum. The museum has many collections from African American artists that depict black culture and African American life through generations. "+'<a href="https://folkartmuseum.org/exhibitions/ancestry-and-innovation-african-american-art-from-the-collection/">Click here to view these collections from the American Folk Art Museum</a>');
+let ellisIsland, ellisIslandMarker;
+  ellisIsland = L.latLng(40.699670, -74.039815);
+  cabrideMarker = L.marker(cabride).addTo(firstMap).bindPopup("ELLIS ISLAND"+'<img src="[Imgur](https://i.imgur.com/ZUzKAwz.png)" width="300" height="250"/>'+"Julius spends time on a rainy afternoon observing works in the American Folk Art Museum. The museum has many collections from African American artists that depict black culture and African American life through generations. "+'<a href="https://folkartmuseum.org/exhibitions/ancestry-and-innovation-african-american-art-from-the-collection/">Click here to view these collections from the American Folk Art Museum</a>');
 let md;
     md = window.markdownit({html: true}).use(window.markdownitFootnote);
     ["south-end"].forEach(function(tab){
@@ -80,3 +83,18 @@ let md3;
                   }
             });
           });
+    let md5;
+      md5 = window.markdownit({html: true}).use(window.markdownitFootnote);
+      ["ellis-island"].forEach(function(tab){
+        // Create a variable tab that has the name as a string.
+        $.ajax({
+          // tab + ".md" yields, for example, "rampart.md".
+          url: "https://nr1451.github.io/javascripting-english-major-project/" + tab + ".md",
+          success: function(markdown){
+            let html;
+            html = md.render(markdown);
+            // "#rampart", for example.
+            $("#" + tab).html(html);
+              }
+        });
+      });
